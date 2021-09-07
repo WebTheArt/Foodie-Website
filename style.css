@@ -72,7 +72,14 @@ a{
     padding: 10px 15px;
     margin-top: 8px;
     font-size: 18px;
+    color: #07a681;
     display: inline-block;
+    transition: .3s;
+    font-weight: 600;
+}
+.custom-btn:hover{
+    background-color: #07a681;
+    color: white;
 }
 
 /* deals section */

@@ -1,0 +1,195 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+img{
+   width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.blue{
+    color: #081b54;
+}
+.green{
+    color: #07a681;
+}
+.header{
+    background-color: #081b54;
+}
+.logo img{
+    width: 50px;
+}
+.nav-link{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 20px !important;
+    margin: 5px;
+    transition: .3s;
+    display: inline-block;
+}
+.nav-link:hover{
+    background-color: #07a681;
+    border-radius: 5px;
+}
+.banner{
+    background-image: url(./img/Background\ –\ 1@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 30px 0;
+}
+.banner-left{
+    margin: auto;
+}
+.banner-left h1{
+    color: #081b54;
+    font-weight: 800;
+    font-size: 60px;
+}
+.text{
+    font-size: 18px;
+    line-height: 27px;
+}
+.banner-right img{
+    animation-name: demo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes demo{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.custom-btn{
+    border: 3px solid #07a681;
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin-top: 8px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+/* deals section */
+.deals-section{
+    background-image: url(./img/about-bg.jpg);
+}
+.deals-items{
+    background-color: #fff;
+    border-top: 10px solid #5dcfa1;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+}
+.item h4{
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.item-text{
+    font-size: 19px;
+    margin-bottom: 0;
+}
+.about2 img{
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+.about3 img{
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+}
+/* food shop section */
+.food{
+    box-shadow: 3px 3px 12px #bebebe;
+    border-radius: 7px;
+}
+.food-img{
+    overflow: hidden;
+    border-radius: 7px;
+}
+.food-img img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: .3s;
+}
+.img1 img{
+    transform: scale(1.2);
+}
+.food-img img:hover{
+    transform: scale(1.2);
+}
+.img1 img:hover{
+    transform: scale(1.4) !important;
+}
+.content-right a{
+    background-color: #07a681;
+    height: 35px;
+    width: 35px;
+    border-radius: 0 0 7px 0;
+    text-align: center;
+    margin-top: 27px;
+}
+.content-left{
+    width: 40%;
+}
+.content-right{
+    width: 40%;
+    text-align: right;
+}
+.content-right a i{
+    line-height: 35px;
+}
+/* testimonial section */
+.tes-img{
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    border: 4px solid #081b54;
+}
+.tes-img img{
+    height: 100%;
+    object-fit: cover;
+}
+.testimonial{
+    box-shadow: 2px 3px 8px #a7a7a7;
+    border-radius: 7px
+    
+}
+.testimonial span i{
+    display: inline-block;
+    padding: 2px;
+}
+/* CONTACT SECTION */
+.footer-text{
+    font-weight: 600;
+}
+.default-input{
+    border: 2px solid #07a681;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 16px 0;
+    display: block;
+    width: 100%;
+    outline: none;
+}
+.default-btn{
+    background-color: #07a681;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 22px;
+    border-radius: 20px;
+    display: block;
+    transition: .3s;
+}
+.default-btn:hover{
+    background-color: #081b54;
+}
